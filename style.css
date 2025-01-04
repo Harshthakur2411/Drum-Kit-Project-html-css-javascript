@@ -64,8 +64,12 @@ h1{
   }
   
   .pressed {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
+      
+     transform: scale(0.9); /* Slightly shrink the button to simulate pressing */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2); /* Softer shadow effect */
+    opacity: 0.8; /* Reduce opacity for a subtle effect */
+    border: 2px solid #ffffff; /* Slight border highlight */
+    transition: transform 0.1s ease, opacity 0.1s ease; /* Smooth transition for the effect */
   }
   
   .red {
